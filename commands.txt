@@ -1,0 +1,9 @@
+apt update -y && apt upgrade -y
+apt install python3 -y && apt install python3-pip -y && apt install screen -y
+pip install pyrogram pyrostep tgcrypto uvicorn requests fastapi 
+mkdir remote_maker
+cd remote_maker
+به اینجا که رسیدی فایل هارو عین اموزش هر ۳ تاشونو اپلود کن
+screen -dm -S remote_bot python3 main.py
+screen -dm -S remote_api python3 webservice.py
+
