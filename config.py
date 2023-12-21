@@ -8,5 +8,5 @@ workers = 32
 botusername = ""
 dev = "aLoonnt"
 topic = "app"
-host = "0.0.0.0"
+host = "128.140.117.195"
 port = 80
